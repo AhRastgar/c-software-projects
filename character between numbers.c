@@ -8,11 +8,11 @@ int main ()
 	char symbol;
 	
 	// incoming
+	printf ("Enter a symbol for drop between numbers ");
+	scanf ("%c" , &symbol);
+	
 	printf ("Enter a number for enable format ");
 	scanf ("%d" , &incomingNum);
-	
-	printf ("Enter a symbol for drop between numbers ");
-	scanf ("%d" , &symbol);
 	
 	// variables
 	int incomingNumStash=incomingNum;
